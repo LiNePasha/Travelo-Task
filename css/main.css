@@ -1,0 +1,757 @@
+/* ----------------------------------------------------------------
+                        [   Start first main Content info on bg ]
+-----------------------------------------------------------------*/
+
+.main-content{
+    width: 100%;
+    
+    background: rgba(128, 128, 128, 0.13);
+}
+
+.bg-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.info-on-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left-for-new-img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.164);
+    padding: 37px 0px 0px 17px ;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.726);
+}
+.right-for-new-img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.164);
+    padding: 37px 0px 0px 17px ;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.726);
+}
+.left-for-new-img:hover , .right-for-new-img:hover{
+    background: white;
+    color: var(--dark);
+}
+.st-h3 {
+    color: white;
+    font-family: 'Monoton', cursive;
+    font-size: 90px;
+}
+.st-p{
+    font-family: 'Armata', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 110px;
+}
+.btn-on-bg-img {
+    background: #1ec6b6;
+    color: #fff !important;
+    display: inline-block;
+    padding: 18px 41px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: .3s;
+    margin: 50px 0px 0px 240px ;
+    text-decoration: none !important;
+}
+
+.btn-on-bg-img:hover {
+    background: var(--reda);
+}
+
+
+/* ----------------------------------------------------------------
+                        [   End first main Content info on bg ]
+-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+                [   Start Secoundry main Content some buttons ]
+-----------------------------------------------------------------*/
+
+
+.sec2-some-info-and-dropdowns{
+    width: 100%;
+    height: 130px;
+    background: #040e27;
+    position: relative;
+    
+}
+.fer {
+    position: absolute;
+    right: 37%;
+    top: 40%;
+    cursor: pointer;
+}
+.text-where-togo{
+    width: 30%;
+    height: 100%;
+    padding: 50px 0 0 100px ;
+    color: white;
+}
+.text-where-togo h3 {
+    font-size: 21px;
+}
+.for-input-type , .for-input-sup{
+    width: 17%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.for-input-type input {
+    width: 100%;
+    height: 50px;
+    background: 0 0;
+    border: 1px solid #363e52;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    
+
+}
+.for-input-type select{
+    width: 100%;
+    height: 50px;
+    background: 0 0;
+    border: 1px solid #363e52;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: rgba(0, 0, 255, 0.356);
+    outline: none;
+}
+.for-input-sup a{
+    width: 60%;
+    height: 50px;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    display: block;
+    background: var(--reda);
+    transition:background 0.3s ;
+}
+.for-input-sup a:hover{
+background: #1ec6b6;
+}
+.for-input-sup a span {
+    padding: 13px 0 0 20px;
+    display: inline-block;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* ----------------------------------------------------------------
+                [   End Secoundry main Content some buttons ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+        [   Start thirty sec Content 6imgs some hovers ]
+-----------------------------------------------------------------*/
+
+.sec3-heading-and-6imgs-some-hovers{
+    width: 100%;
+    height: 950px;
+    background-color: white;
+}
+
+
+.heading {
+    width: 45%;
+    height: 250px;
+    
+    text-align: center;
+    margin: auto;
+}
+
+.heading  h3 {
+    padding-top: 100px;
+}
+
+.heading  p{
+    padding-top: 10px;
+    color: #7a838b;
+}
+
+.have-3imgs{
+    width: 100%;
+    height: 280px;
+    
+}
+
+
+.have-1-img{
+    width: 32%;
+    height: 100%;
+    
+}
+
+.no{
+    width: 100%;
+    height: 5%;
+    
+    
+}
+
+.have-img{
+    width: 100%;
+    height: 90%;
+    
+    margin-bottom: 20px;
+    background-image: url(../images/t.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.brazil{
+    background-image: url(../images/brazil.jpg);
+}
+.amrica{
+    background-image: url(../images/amreica.jpg);
+}
+.nepal {
+    background-image: url(../images/nepal.jpg);
+}
+.maldives {
+    background-image: url(../images/maldives.jpg);
+}
+.gpal {
+    background-image: url(../images/gpal.jpg);
+}
+.tro{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    
+
+}
+.tro h4 {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-size: 20px;
+}
+.tro a{
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12.5px;
+    padding:2px 8px 1px 8px;
+    border-radius: 10px;
+    background: #1ec6b6;
+    color: white;
+    text-decoration: none;
+}
+.tro:hover a {
+background: var(--reda);
+}
+.tro:hover h4{
+    color: var(--reda);
+}
+.have-img:hover{
+    position: relative;
+    bottom: 20px;
+}
+
+.margin {
+    margin: 0 50px 0 50px;
+}
+
+
+
+/* ----------------------------------------------------------------
+        [   /End thirty sec Content 6imgs some hovers ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+        [   Start Forty sec Content bgimg and btn sup ]
+-----------------------------------------------------------------*/
+
+
+.sec4-bgimg-and-btn-sup{
+    width: 100%;
+    height: 220px;
+    background-image: url(../images/newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay-bgimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.have-info-on-bgimg{
+    width: 45%;
+    height: 100%;
+    
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    
+}
+.have-info-on-bgimg h3 {
+    color: white;
+}
+.have-info-on-bgimg p{
+    color: #aab1b7;
+}
+
+.have-info-on-bgimg span {
+    position: absolute;
+    display: block;
+    left: 22.5%;
+    bottom: 27%;
+    color: #aab1b7;
+}
+.have-type-and-btn{
+    width: 55%;
+    height: 100%;
+    
+    padding-top: 90px;
+}
+
+.have-type-and-btn input {
+    width: 55%;
+    height: 50px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 15px;
+    color: #000;
+    font-size: 16px;
+    font-family: rubik,sans-serif;
+    font-weight: 300;
+    outline: none;
+}
+
+.btn-supp {
+    background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition:background .3s;
+    cursor: pointer;
+    outline: none !important;
+    border: none !important;
+
+}
+.btn-supp:hover {
+    background: #1ec6b6;
+
+}
+
+/* ----------------------------------------------------------------
+        [  /end Forty sec Content bgimg and btn sup ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+        [  Start Fifty sec Content some bgimgs and info ]
+-----------------------------------------------------------------*/
+
+
+
+.sec5-headeing-and-some-things{
+width: 100%;
+height: 1200px;
+background: var(--bg);
+}
+
+.have3imgs-and-some-info{
+    width: 100%;
+    height: 330px;
+    
+}
+
+.have-all-things{
+    width: 32%;
+    height: 100%;
+    background: white;
+    border-radius: 5px;
+}
+
+.have-bg-img-and-sell{
+    width: 100%;
+    height: 60%;
+    background-image: url(../images/gsrr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+}
+.korola {
+    background-image: url(../images/korola.jpg);
+}
+.king{
+    background-image: url(../images/king.jpg);
+}
+.n1{
+    background-image: url(../images/n1.jpg);
+}
+.air{
+    background-image: url(../images/air.jpg);
+}
+.rr {
+    background-image: url(../images/rr.webp);
+}
+.marg-t{
+    margin-top: 30px;
+}
+.sel{
+    position: absolute;
+    background: #1ec6b6;
+    padding: 5px 18px  4px;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    transition:background 0.3s;
+    text-decoration: none !important;
+}
+.sel:hover {
+    color: white;
+}
+.have-all-things:hover .sel{
+    background-color: var(--reda);
+}
+.have-all-things:hover .have-info-and-ngom a {
+    color: var(--reda);
+}
+.have-all-things:hover{
+    box-shadow: 3px 3px 5px 2px rgba(128, 128, 128, 0.075);
+}
+.have-info-and-ngom{
+    width: 100%;
+    height: 40%;
+    
+    padding: 15px 0px 0px 15px;
+}
+.mar-a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.have-info-and-ngom a {
+color: black;
+text-decoration: none;
+display: inline-block;
+transition: color 0.3s;
+}
+.have-info-and-ngom p , .reviews{
+    color: #7a838b;
+}
+
+.ngom {
+    color: #fdae5c;
+    font-size: 11px;
+}
+
+.a-for-more-places {
+    position: relative;
+    background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition:background 0.3s;
+    top: 5%;
+    left: 43%;
+    text-decoration: none !important;
+
+}
+.a-for-more-places:hover {
+    background-color: #1ec6b6;
+    color: white;
+}
+
+
+/* ----------------------------------------------------------------
+        [  /end Fifty sec Content some bgimgs and info ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+        [  Start sixty sec Content bgimg and vidyo ]
+-----------------------------------------------------------------*/
+
+
+.sec6-bgimg-vidyo{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.have-bgimg-and-vidyo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/1-Yosemite_Valley-e1528945436839.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay-on-bgg{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.enjoy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.enjoy h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.enjoy a {
+    width: 84px;
+    height: 84px;
+    text-align: center;
+    line-height: 84px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #1ec6b6;
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+
+/* ----------------------------------------------------------------
+        [  /end sixty sec Content bgimg and vidyo ]
+-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+        [  Start sevnty 7 sec Content  ]
+-----------------------------------------------------------------*/
+
+.sec7-things{
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+.have-all-divs3{
+    width: 100%;
+    height: 500px;
+}
+.have-things{
+    width: 30%;
+    height:100%;
+    
+    padding-top: 150px;
+}
+
+.have-things img{
+    margin-left: 125px ;
+}
+
+
+.have-things h5{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.have-things p{
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #6e6e6e;
+}
+
+.margona{
+    margin: 0 5% 0 5%;
+}
+
+
+/* ----------------------------------------------------------------
+        [  /end sevnty 7 sec Content  ]
+-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------
+        [  Start   sec8 Content  ]
+-----------------------------------------------------------------*/
+.sec8-img-and-some-info{
+    width: 100%;
+    height: 450px;
+    background-color: var(--bg);
+    position: relative;
+}
+
+.div-center-div-parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.div-center-div-parent p {
+    color: #7a838b;
+    font-family: 'Nunito', sans-serif;
+}
+.div-center-div-parent img {
+    margin-bottom: 50px;
+}
+.div-center-div-parent a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #1ec6b6;
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    top: 30%;
+    right: 30%;
+
+}
+
+.div-center-div-parent a i {
+    color: white;
+}
+
+
+
+/* ----------------------------------------------------------------
+        [  /end   sec8 Content  ]
+-----------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+        [  Start   sec9 Content  ]
+-----------------------------------------------------------------*/
+.sec9{
+    width: 100%;
+    height: 650px;
+    background: white;
+}
+
+.hy{
+    background-image: url(../images/1.webp);
+}
+
+.hy2{
+    background-image: url(../images/2.webp);
+}
+
+.hy3{
+    background-image: url(../images/3.webp);
+}
+
+
+/* ----------------------------------------------------------------
+        [  /end   sec9 Content  ]
+-----------------------------------------------------------------*/

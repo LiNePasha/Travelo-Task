@@ -1,0 +1,186 @@
+/* ----------------------------------------------------------------
+                        [   things reguler ]
+-----------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------
+                        [  Root for Colors  ]
+-----------------------------------------------------------------*/
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --fa-color: #aab1b7;
+  --reda: #ff4a52;
+  --bg: #f7fafd ;
+}
+.color-red {
+  color: var(--reda);
+}
+
+/* ----------------------------------------------------------------
+                        [  Start Header Content  ]
+-----------------------------------------------------------------*/
+header {
+  height: 110px;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  
+}
+header a {
+  color: black;
+  text-decoration: none;
+}
+header a:hover {
+  color: var(--cyan);
+}
+.logo {
+  width: 18.5%;
+}
+
+.logo-img {
+  width: 60%;
+  margin: 32px 0px 0px 30px;
+}
+/* --[  Start Groping in Header Content For size Css file ]--*/
+.nav-item-dropdw,
+.ico-search {
+  position: relative;
+}
+.dropdown-menu-pages,
+.ico-serch-in-header {
+  position: absolute;
+}
+.dropdown-item-pages-1,
+.dropdown-item-pages-2 {
+  display: block;
+  text-decoration: none !important;
+}
+.dropdown-item-pages-1,
+.dropdown-item-pages-2,
+.links-right p,
+.links-right a,
+.ico-search {
+  display: block;
+}
+.ico-search,
+.ico-search:hover {
+  width: 6.5%;
+  height: 100%;
+  background: var(--reda);
+  color: #fff;
+}
+/* --[  End/ Groping in Header Content For size Css file ]--*/
+.dropdown-menu-pages {
+  width: 200px;
+  height: 90px;
+  padding-left: 15px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px 3px rgba(128, 128, 128, 0.021);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  transition: visibility 0.5s, opacity 0.5s;
+  background: white;
+}
+
+.dropdown-item-pages-2 {
+  padding-top: 15px;
+}
+.nav-item-dropdw:hover .dropdown-menu-pages {
+  opacity: 1;
+  visibility: visible;
+}
+.nav-hed {
+  padding-top: 2.5%;
+  
+}
+
+.links-right {
+  width: 25%;
+  height: 100%;
+  padding-top: 3%;
+  
+}
+
+.links-right p {
+  font-size: 14px;
+  color: #040e27;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-left: 8px;
+  width: 110px;
+}
+.links-right a {
+  color: var(--fa-color);
+  height: 1px;
+}
+.links-right a:hover {
+  color: var(--reda);
+}
+.hr-after-num {
+  width: 1px;
+  height: 35%;
+  background: var(--fa-color);
+  margin: 0px 15px 0px 10px;
+}
+
+.ico-serch-in-header {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div-for-mop{
+    display: none;
+}
+
+/* ----------------------------------------------------------------
+                        [  End Header Content  ]
+-----------------------------------------------------------------*/
+
+
+
+
+
+/* ----------------------------------------------------------------
+                        [  start footer Content  ]
+-----------------------------------------------------------------*/
+footer{
+  width: 100%;
+  height: 100px;
+  background-image: url(../images/blue.jpg);
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer h3 {
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+/* ----------------------------------------------------------------
+                        [  end footer Content  ]
+-----------------------------------------------------------------*/
